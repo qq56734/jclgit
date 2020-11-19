@@ -1,0 +1,51 @@
+<TechLayer1 ChannelPort="1" ParamFlag="768" DefPwmFreqFunc="false" DefPwmRatioFunc="false" OEM="0">
+	<CamParams DelayBeforeLaserOff="0" LiftHeight="10" PierceStepCount="2" PathRepeat="0" PierceStyle="0" SlowEndSpeed="2" SlowEndLength="0" SlowLeadSpeed="2" SlowLeadLength="0" FlashCutPierceH="5" FlashCutPierctT="0" ShakeResLv="1" ShaleResMs="10" Version="19031813" WorkSpeed="200" PierceFlags="131166">
+		<LeadLineParam Flags="14" PwmFreq="5000" PwmRatio=".5" CurveSpd="10" LeadDecLen="3" LeadCutH="5" LeadDecSpd="10" LeadHoleSpd="10"/>
+		<LayerCutParams Enable="true" ArcTolerance=".05" CornerTolerance=".1" WorkAcc="2000" FirFreq="4"/>
+		<SlowLeadExt Enable="false" Freq="1000" Ratio="1" GasPressure="1"/>
+		<CornerParams Enable="true" PwmFreq="10" PwmRatio=".1" Current="100" Speed="5" CornerLen="5" Angle="100"/>
+		<SlowEndExt Enable="false" Freq="1000" Ratio="1" GasPressure="1"/>
+		<Cut Focus="0" GasPressure=".6895" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="-1" PwmFreq="1000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="30" FlashPierceType="1" PierceMode="0"/>
+		<Pierce1 Focus="0" GasPressure=".6895" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="1" PwmFreq="5000" PwmRatio="1" TimeBlow="0" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="20" FlashPierceType="1" PierceMode="0"/>
+		<Pierce2 Focus="0" GasPressure=".6895" GasType="0" Height="5" LaserCurrent="100" PeakPower="3000" LaserMode="1" PwmFreq="100" PwmRatio="1" TimeBlow="0" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="20" FlashPierceType="1" PierceMode="0"/>
+		<Pierce3 Focus="0" GasPressure=".6895" GasType="0" Height="15" LaserCurrent="100" PeakPower="3000" LaserMode="1" PwmFreq="5000" PwmRatio=".5" TimeBlow="0" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="20" FlashPierceType="1" PierceMode="0"/>
+		<Pierce4 Focus="0" GasPressure=".6895" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="0" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="20" FlashPierceType="1" PierceMode="0"/>
+		<Pierce5 Focus="0" GasPressure=".6895" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="0" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="20" FlashPierceType="1" PierceMode="0"/>
+		<Pierce6 Focus="0" GasPressure="5" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="30" FlashPierceType="1" PierceMode="0"/>
+		<Pierce7 Focus="0" GasPressure="5" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="30" FlashPierceType="1" PierceMode="0"/>
+		<Pierce8 Focus="0" GasPressure="5" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="30" FlashPierceType="1" PierceMode="0"/>
+		<Pierce9 Focus="0" GasPressure="5" GasType="0" Height="1" LaserCurrent="100" PeakPower="3000" LaserMode="0" PwmFreq="5000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0" BlowGasType="0" BlowGasPressure="5" SideBlowPressure="0" FocusEnd="0" PwmFreqEnd="1000" PwmRatioEnd="0" CycleTime="30" FlashPierceType="1" PierceMode="0"/>
+	</CamParams>
+	<MaterialName>默认工艺.fsm</MaterialName>
+	<MaterialPath/>
+	<PwmFreqFunc KnotCount="9" SmoothType="0">
+		<NormalS X="1" Y="0"/>
+		<NormalE X="1" Y="0"/>
+		<Bound Left="0" Top="1" Right="100" Bottom="100"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="34.32" Y="78.0769231"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+	</PwmFreqFunc>
+	<PwmRatioFunc KnotCount="9" SmoothType="0">
+		<NormalS X="1" Y="0"/>
+		<NormalE X="1" Y="0"/>
+		<Bound Left="0" Top="1" Right="100" Bottom="100"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="10" Y="50"/>
+		<Knot X="36.02" Y="75.3846154"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+		<Knot X="80" Y="100"/>
+	</PwmRatioFunc>
+	<MaterialParams MaterialID="0" MaterialName="碳钢" NozzleSpec="默认" Thickness="2"/>
+	<Note>默认工艺， 示例</Note>
+</TechLayer1>		

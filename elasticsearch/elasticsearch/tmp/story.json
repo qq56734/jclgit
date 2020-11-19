@@ -1,0 +1,46 @@
+{  
+
+   "template" : "story-*",  
+
+   "settings" : {  
+
+    "index.number_of_shards": 5,  
+
+    "number_of_replicas": 1    
+
+    "analysis": {
+      "analyzer": {
+        "spec_az": {
+          "tokenizer": "ik_smart",
+          "char_filter": ["html_strip"]
+        }
+      }
+    }
+
+   },  
+
+   "mappings" : {  
+   
+     "properties": {
+      "id": {
+          "type": "keyword"
+        },
+        
+      "title": {
+          "type": "text",
+          "analyzer": "ik_max_word"
+        },
+        
+      
+        
+      "spec": {
+          "type": "text",
+          "analyzer": "spec_az"
+      }
+    }  
+
+     
+
+   }  
+
+ }  

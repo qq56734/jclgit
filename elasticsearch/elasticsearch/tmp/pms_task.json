@@ -1,0 +1,51 @@
+{ 
+    "index_patterns": [
+        "pms_task"
+    ],
+    "order":1,
+    "settings" : { 
+	"index" : {
+      	"default_pipeline" : "pms_task"
+     }
+   }, 
+ "mappings": {
+			"dynamic_templates": [{
+				"es": {
+					"match": "message",
+					"match_mapping_type": "string",
+					"mapping": {
+						"type": "text",
+						"analyzer": "ik_smart"
+					}
+				}
+			},
+			{
+				"en": {
+					"match": "tags",
+					"match_mapping_type": "string",
+					"mapping": {
+						"type": "text",
+						"analyzer": "ik_smart"
+					}
+				}
+			},
+			{
+				"ea": {
+					"match": "*",
+					"match_mapping_type": "string",
+					"mapping": {
+						"norms": false,
+						"type": "text",
+						"fields": {
+							"keyword": {
+								"type": "keyword",
+								"ignore_above": 256
+							}
+						}
+					}
+				}
+			}]
+	},
+    "aliases": {}
+  
+}

@@ -1,0 +1,3 @@
+logstash -f lsc/pms_story.conf
+logstash -f lsc/pms_bug.conf
+logstash -f lsc/pms_task.conf

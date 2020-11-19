@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material ChannelPort="1" ParamFlag="768" DefPwmFreqFunc="true" DefPwmRatioFunc="true" OEM="1" >
+	<CamParams DelayBeforeLaserOff="0" LiftHeight="10" PierceStepCount="0" PathRepeat="0" PierceStyle="0" SlowEndSpeed="2" SlowEndLength="0" SlowLeadSpeed="2" SlowLeadLength="0" Version="16102421" WorkSpeed="233.333333" PierceFlags="0">
+		<Cut Focus="0" GasPressure="7.5" GasType="2" Height=".4" LaserCurrent="100" LaserMode="-1" PwmFreq="5000" PwmRatio="1" TimeBlow="500" TimeFocus="500" TimeFollow="1000" TimeStay="200" Flags="0" BeamSize="0"/>
+		<Pierce1/>
+		<Pierce2/>
+		<Pierce3/>
+	</CamParams>
+	<MaterialName>sat 1mm.fsm</MaterialName>
+	<PwmFreqFunc/>
+	<PwmRatioFunc/>
+	<Note>d1.5
+tieu cu0</Note>
+</Material>
